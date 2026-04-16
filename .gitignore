@@ -1,0 +1,13 @@
+# 忽略巨大的 JSON 数据集文件夹
+leandojo_benchmark_4/
+
+# 忽略所有的图数据和模型权重文件
+*.pt
+*.pth
+
+# 忽略存放权重的文件夹
+best_rgcn_model_without_HardNegative/
+best_rgcn_model_with_HardNegative/
+
+# 忽略所有 JSON 文件 (可选，如果你有很小的 json 配置文件需要传，就删掉这行)
+*.json
